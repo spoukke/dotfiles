@@ -13,7 +13,6 @@ function _info() {
 cd "$( dirname "${BASH_SOURCE[0]}" )"
 
 _info "🔧 Copying config files..."
-cp .gitconfig ~/.gitconfig
-cp -r config/alacritty ~/.config/alacritty
-
-_info "🚀 You are ready to go!"
+find * -maxdepth 0 -type d | xargs stow -t $HOME > /dev/null 2>&1 \
+  && _info "🚀 You are ready to go!" \
+  || _info "En error occured"
