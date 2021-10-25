@@ -14,9 +14,6 @@ cd "$( dirname "${BASH_SOURCE[0]}" )"
 
 _info "🔧 Copying config files..."
 cp .gitconfig ~/.gitconfig
-cp .xsessionrc ~/.xsessionrc
-cp -r config/bspwm ~/.config
-cp -r config/sxhkd ~/.config/sxhkd
 cp -r config/alacritty ~/.config/alacritty
 
 _info "🚀 You are ready to go!"
