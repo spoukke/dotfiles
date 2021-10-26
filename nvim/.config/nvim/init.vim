@@ -13,7 +13,7 @@ call plug#begin('~/.local/share/nvim/site/plugged')
   Plug 'joshdick/onedark.vim'
   Plug 'preservim/nerdtree'  |
             \ Plug 'Xuyuanp/nerdtree-git-plugin'
-
+  Plug 'jiangmiao/auto-pairs'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
