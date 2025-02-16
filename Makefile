@@ -1,5 +1,9 @@
 # Define required packages
-PACKAGES = zsh git curl stow
+PACKAGES = bspwm sxhkd polybar dunst rofi alacritty picom stow nitrogen feh \
+           network-manager-gnome pulseaudio-utils playerctl xbacklight acpi \
+           curl x11-xserver-utils unclutter brightnessctl pavucontrol git zsh \
+           thunar thunar-archive-plugin thunar-volman gvfs gvfs-backends tumbler ffmpegthumbnailer \
+           udisks2 xclip xdotool lm-sensors htop bat ripgrep
 
 # Default target: install packages and setup config
 all: packages ohmyzsh-install p10k-install config set-zsh
