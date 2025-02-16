@@ -1,0 +1,24 @@
+* {
+    background: #191724;
+    foreground: #e0def4;
+    selected: #ebbcba;
+    border-color: #31748f;
+}
+
+window {
+    background-color: @background;
+    border: 2px solid @border-color;
+}
+
+listview {
+    background-color: @background;
+}
+
+element {
+    background-color: @background;
+    border: none;
+}
+
+element selected {
+    background-color: @selected;
+}

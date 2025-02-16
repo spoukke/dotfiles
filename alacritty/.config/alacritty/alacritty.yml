@@ -1,8 +1,2 @@
 import:
-  - ~/.config/alacritty/colors.yml
-
-window:
-  opacity: 1
-
-live_config_reload: true
-
+  - ~/.config/alacritty/rose-pine.yml
