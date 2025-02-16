@@ -27,8 +27,8 @@ super + shift + {b,m,n,r,s,t,w,x}
 ##---------- Applications ----------##
 
 # Launch Apps
-super + {f,w,e,a}
-	{thunar,firefox,geany,code}
+super + {f,w,c}
+	{thunar,firefox,code}
 
 # Terminal Apps
 ctrl + alt + {v,r,h}
